@@ -4,6 +4,11 @@ const database = [
     dob: "06/12/2007",
     pdf: "results/rahul123.pdf"
   }
+    {
+    username: "2505110120104",
+    dob: "26/01/2007",
+    pdf: "results/2505110120104.pdf"
+  }
 ];
 
 function checkResult() {
@@ -29,3 +34,4 @@ function checkResult() {
     error.innerText = "Invalid Credentials";
   }
 }
+
